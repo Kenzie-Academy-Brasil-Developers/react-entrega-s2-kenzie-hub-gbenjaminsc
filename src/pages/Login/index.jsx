@@ -62,7 +62,7 @@ function Login({ handleNavigation, authenticated, setAuthenticated }) {
           <Button pinkSchema type="submit">Entrar</Button>
         </form>
         <p>Ainda não possui uma conta?</p>
-        <Button className="greybutton" greySchema onClick={() => handleNavigation("/signup")}>Cadastre-se</Button>
+        <Button className="greybutton" greySchema onClick={() => handleNavigation("/register")}>Cadastre-se</Button>
       </div>
     </Container>
   );

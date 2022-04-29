@@ -29,6 +29,7 @@ function Register ({ handleNavigation, authenticated}) {
             return history.push('/home')
         })
         .catch((err) => {
+            console.log(err)
             toast.error("Erro ao criar a conta, tente outro email")
         })
     }
